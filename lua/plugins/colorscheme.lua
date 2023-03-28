@@ -10,7 +10,12 @@ return {
   { "Shatur/neovim-ayu" },
   { "joshdick/onedark.vim" },
   { "nordtheme/vim" },
-  { "marko-cerovac/material.nvim" },
+  {
+    "marko-cerovac/material.nvim",
+    init = function()
+      vim.g.material_style = "deep ocean"
+    end,
+  },
   { "rebelot/kanagawa.nvim" },
   { "sainnhe/sonokai" },
   { "sainnhe/everforest" },

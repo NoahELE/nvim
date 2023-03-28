@@ -18,7 +18,7 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
-      opts = { colorscheme = "oxocarbon" },
+      opts = { colorscheme = "material" },
     },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.typescript" },

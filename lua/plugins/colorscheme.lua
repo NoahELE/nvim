@@ -20,4 +20,5 @@ return {
   { "sainnhe/sonokai" },
   { "sainnhe/everforest" },
   { "sainnhe/edge" },
+  { "mhartington/oceanic-next" },
 }

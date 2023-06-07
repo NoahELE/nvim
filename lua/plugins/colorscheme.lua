@@ -2,7 +2,7 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
-      style = "night",
+      style = "moon",
     },
   },
   { "ellisonleao/gruvbox.nvim" },
@@ -21,4 +21,9 @@ return {
   { "sainnhe/everforest" },
   { "sainnhe/edge" },
   { "mhartington/oceanic-next" },
+  -- set the colorscheme
+  {
+    "LazyVim/LazyVim",
+    opts = { colorscheme = "material" },
+  },
 }

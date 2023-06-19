@@ -22,7 +22,6 @@ return {
         "toml",
         "markdown",
         "markdown_inline",
-        "help",
         "regex",
       },
     },

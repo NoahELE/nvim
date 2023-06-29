@@ -4,5 +4,4 @@
 vim.keymap.set("i", "jk", "<esc>", { desc = "esc" })
 vim.keymap.set("i", "kj", "<esc>", { desc = "esc" })
 
-vim.keymap.set("n", "<leader>fs", "<cmd>w<cr>", { desc = "Save File" })
-vim.keymap.set("n", "<leader>fS", "<cmd>wa<cr>", { desc = "Save All Files" })
+vim.keymap.set("n", "U", "<c-r>", { desc = "redo" })

@@ -24,6 +24,8 @@ return {
   -- set the colorscheme
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "material" },
+    opts = {
+      colorscheme = "everforest",
+    },
   },
 }

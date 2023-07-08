@@ -18,7 +18,6 @@ return {
         "lemminx",
         "yaml-language-server",
         "taplo",
-        "shfmt",
       },
     },
   },

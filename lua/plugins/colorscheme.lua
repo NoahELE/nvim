@@ -17,10 +17,7 @@ return {
     end,
   },
   { "rebelot/kanagawa.nvim" },
-  { "sainnhe/sonokai" },
   { "sainnhe/everforest" },
-  { "sainnhe/edge" },
-  { "mhartington/oceanic-next" },
   -- set the colorscheme
   {
     "LazyVim/LazyVim",

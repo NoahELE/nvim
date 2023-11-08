@@ -41,19 +41,13 @@ require("lazy").setup({
     rtp = {
       -- disable some rtp plugins
       disabled_plugins = {
-        "editorconfig",
         "gzip",
-        "man",
-        "matchit",
-        "matchparen",
-        "netrwPlugin",
-        "nvim",
-        "rplugin",
-        "shada",
-        "spellfile",
+        -- "matchit",
+        -- "matchparen",
+        -- "netrwPlugin",
         "tarPlugin",
         "tohtml",
-        -- "tutor",
+        "tutor",
         "zipPlugin",
       },
     },

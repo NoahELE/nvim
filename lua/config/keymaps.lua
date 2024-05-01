@@ -6,7 +6,8 @@ vim.keymap.set("i", "kj", "<esc>", { desc = "Esc" })
 
 vim.keymap.set("n", "U", "<C-r>", { desc = "Redo" })
 
-vim.keymap.set("n", "<M-x>", ":", { desc = "Run command" })
+vim.keymap.set("n", "<A-x>", ":", { desc = "Run command" })
+vim.keymap.set("n", "<A-z>", "<cmd>set wrap!<cr>", { desc = "Run command" })
 
 vim.keymap.set("n", "<leader>fs", "<cmd>w<cr>", { desc = "Save File" })
 

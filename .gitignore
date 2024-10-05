@@ -10,4 +10,4 @@ lazy-lock.json
 lazyvim.json
 
 # local config
-local.*
+*.local.lua

@@ -1,15 +1,9 @@
 return {
-  {
-    "folke/tokyonight.nvim",
-    opts = {
-      style = "moon",
-    },
-  },
+  { "folke/tokyonight.nvim" },
   { "ellisonleao/gruvbox.nvim" },
   { "nyoom-engineering/oxocarbon.nvim" },
   { "Shatur/neovim-ayu" },
-  { "joshdick/onedark.vim" },
-  { "nordtheme/vim" },
+  { "navarasu/onedark.nvim" },
   {
     "marko-cerovac/material.nvim",
     init = function()
@@ -18,11 +12,12 @@ return {
   },
   { "rebelot/kanagawa.nvim" },
   { "sainnhe/everforest" },
+  { "sainnhe/gruvbox-material" },
   -- set the colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oxocarbon",
+      colorscheme = "tokyonight",
     },
   },
 }

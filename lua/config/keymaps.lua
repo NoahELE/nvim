@@ -11,8 +11,12 @@ vim.keymap.set("n", "<A-z>", "<cmd>set wrap!<cr>", { desc = "Run Command" })
 vim.keymap.set("n", "<leader>fs", "<cmd>w<cr>", { desc = "Save File" })
 
 vim.keymap.set("n", "<S-M-f>", function()
-  vim.lsp.buf.format()
+  LazyVim.format({ force = true })
 end, { desc = "Format" })
+vim.keymap.set({ "n", "x" }, "<leader>cf", function()
+  LazyVim.format({ force = true })
+end, { desc = "Format" })
+
 vim.keymap.set("n", "<S-M-o>", function()
   vim.lsp.buf.code_action({
     context = {

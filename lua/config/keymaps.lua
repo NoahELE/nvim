@@ -20,6 +20,7 @@ end, { desc = "Format" })
 vim.keymap.set("n", "<S-M-o>", function()
   vim.lsp.buf.code_action({
     context = {
+      diagnostics = {},
       only = { "source.organizeImports" },
     },
     apply = true,

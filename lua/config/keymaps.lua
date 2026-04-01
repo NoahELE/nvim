@@ -16,6 +16,9 @@ end, { desc = "Format" })
 vim.keymap.set({ "n", "x" }, "<leader>cf", function()
   LazyVim.format({ force = true })
 end, { desc = "Format" })
+vim.keymap.set({ "n", "x" }, "==", function()
+  LazyVim.format({ force = true })
+end, { desc = "Format" })
 
 vim.keymap.set("n", "<S-M-o>", function()
   vim.lsp.buf.code_action({
